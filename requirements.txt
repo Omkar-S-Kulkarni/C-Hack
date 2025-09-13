@@ -1,0 +1,31 @@
+# File: requirements.txt (UPDATED VERSION)
+
+# Web Servers
+Flask
+streamlit
+
+# Google Gemini API
+google-generativeai
+python-dotenv
+
+# RAG and Vector Store
+sentence-transformers
+faiss-cpu
+langchain
+
+# Processors
+PyMuPDF
+pdfplumber
+opencv-python-headless
+easyocr
+torch
+torchvision
+pandas
+openpyxl
+
+# --- CORE FIX: Use modern, compatible SpaCy & scispaCy versions ---
+scispacy==0.5.5
+spacy==3.7.5
+
+# Utilities
+requests

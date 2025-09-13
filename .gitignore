@@ -1,0 +1,17 @@
+.env
+venv/
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.db
+*.sqlite3
+*.log
+.vscode/
+.idea/
+DS_Store
+app/uploads/
+
+
